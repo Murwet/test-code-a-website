@@ -67,3 +67,11 @@ footer {
     height: 300px;
 
 }
+
+.hero{
+    display: flex;
+    align-items: center;
+}
+.hero img{
+    margin-right: 100px;
+}

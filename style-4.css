@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background: beige;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+
+.navbar ul li {
+    display: flex;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
