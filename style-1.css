@@ -60,7 +60,7 @@
 
 .hero-content {
     width: 50%;
-    
+
 }
 
 .hero-content h1 {
@@ -70,7 +70,7 @@
 
 .hero-content p {
     font-size: 20px;
-    margin:15px 0;
+    margin: 15px 0;
 }
 
 .btn {
@@ -83,15 +83,84 @@
     border-radius: 10px;
 }
 
-.btn:hover{
+.btn:hover {
     background: lightblue;
 }
 
-.hero .hero-image{
+.hero .hero-image {
     width: 50%;
 }
-.hero .hero-image img{
+
+.hero .hero-image img {
     max-width: 500px;
-    margin-left:100px;
+    margin-left: 100px;
     border-radius: 10px;
+}
+
+/* Form section */
+
+.form-section {
+    background: beige;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section .form-container {
+    background: lightblue;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-section .form-container h2 {
+    margin-bottom: 15px;
+}
+
+.form-section .form-container .form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-section .form-container .form-group label {
+    font-weight: bold;
+}
+
+.form-section .form-container .form-group input {
+    width: 100%;
+    padding: 7px;
+    border: solid 1.3px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-section .form-container .form-group input:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-section .form-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #90ee90;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-section .form-container button:hover {
+    background: #67ec67;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-section .form-container button:active {
+    background: #1fe21f;
+    cursor: pointer;
+    transform: scale(0.98);
 }
